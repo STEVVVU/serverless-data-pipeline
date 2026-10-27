@@ -4,6 +4,7 @@ import os
 import socket
 import sqlite3
 import subprocess
+import sys
 import tempfile
 import time
 import urllib.error
@@ -54,7 +55,7 @@ def main():
                 stage_port = port()
                 env.update(PORT=str(stage_port), STAGE=stage)
                 logs.append((ROOT / 'evidence' / f'{stage}.log').open('w'))
-                processes.append(subprocess.Popen(['python', 'service.py'], cwd=ROOT, env=env, stdout=subprocess.DEVNULL, stderr=logs[-1]))
+                processes.append(subprocess.Popen([sys.executable, 'service.py'], cwd=ROOT, env=env, stdout=subprocess.DEVNULL, stderr=logs[-1]))
                 wait_ready(f'http://127.0.0.1:{stage_port}/health', processes[-1])
                 env[stage.upper() + '_URL'] = f'http://127.0.0.1:{stage_port}'
             env.update(PORT=str(gateway))
@@ -91,7 +92,7 @@ def main():
                 assert error.code == 502 and time.monotonic() - start < 3
             query_port = env['QUERY_URL'].rsplit(':', 1)[1]
             query_env = dict(env, STAGE='query', PORT=query_port)
-            processes[2] = subprocess.Popen(['python', 'service.py'], cwd=ROOT, env=query_env, stdout=subprocess.DEVNULL, stderr=logs[2])
+            processes[2] = subprocess.Popen([sys.executable, 'service.py'], cwd=ROOT, env=query_env, stdout=subprocess.DEVNULL, stderr=logs[2])
             wait_ready(env['QUERY_URL'] + '/health', processes[2])
             assert json.loads(request(env['QUERY_URL'] + '/query', {'filters': {'country': 'France'}})) == split
             recovered = json.loads(request(f'http://127.0.0.1:{gateway}/split', data))

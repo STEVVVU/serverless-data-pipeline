@@ -2,6 +2,7 @@
 import json
 import os
 import subprocess
+import sys
 import urllib.error
 from pathlib import Path
 
@@ -11,7 +12,7 @@ from verify import ROOT, port, request, wait_ready
 def main():
     stage_port = port()
     env = dict(os.environ, AUTH_MODE='local', SERVICE_TOKEN='local-verification-token', STAGE='transform', PORT=str(stage_port))
-    process = subprocess.Popen(['python', 'service.py'], cwd=ROOT, env=env, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    process = subprocess.Popen([sys.executable, 'service.py'], cwd=ROOT, env=env, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     results = []
     try:
         url = f'http://127.0.0.1:{stage_port}'

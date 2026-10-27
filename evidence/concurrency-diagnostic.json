@@ -1,0 +1,536 @@
+{
+  "tool": "autocannon 8.0.0",
+  "workload": "50 requests per run, concurrency 8, one pair",
+  "dataset_sha256": "0e6019413b5d719964a8cc725a33aabe49362b0e341701da298931f18d3626ce",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "node": "v25.8.1",
+  "python": "Python 3.11.9",
+  "source_sha256": "aa815f91922f65e484b614d0973955eb10b244f076eeff428e3c28f2ca39ee1b",
+  "receipts": [
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 179.5,
+        "mean": 179.5,
+        "stddev": 96.37,
+        "min": 26,
+        "max": 351,
+        "p0_001": 26,
+        "p0_01": 26,
+        "p0_1": 26,
+        "p1": 26,
+        "p2_5": 50,
+        "p10": 65,
+        "p25": 89,
+        "p50": 153,
+        "p75": 269,
+        "p90": 297,
+        "p97_5": 349,
+        "p99": 351,
+        "p99_9": 351,
+        "p99_99": 351,
+        "p99_999": 351,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 272.38,
+        "mean": 272.38,
+        "stddev": 65.4,
+        "min": 81,
+        "max": 385,
+        "p0_001": 81,
+        "p0_01": 81,
+        "p0_1": 81,
+        "p1": 81,
+        "p2_5": 98,
+        "p10": 132,
+        "p25": 256,
+        "p50": 274,
+        "p75": 313,
+        "p90": 337,
+        "p97_5": 376,
+        "p99": 385,
+        "p99_9": 385,
+        "p99_99": 385,
+        "p99_999": 385,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    }
+  ]
+}

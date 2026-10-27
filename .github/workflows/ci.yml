@@ -1,0 +1,23 @@
+name: local checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements.lock
+      - run: python -m pip install -r requirements-dev.txt
+      - run: npm ci
+      - run: python -m unittest discover -s tests
+      - run: python -m ruff check --select F .
+      - run: python -m mypy --check-untyped-defs --ignore-missing-imports pipeline.py service.py
+      - run: python -m compileall -q pipeline.py service.py scripts tests
+      - run: node --check gateway.mjs
+      - run: python scripts/verify_invalid_csv.py
+      - run: python scripts/verify.py

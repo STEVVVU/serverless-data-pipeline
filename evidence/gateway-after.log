@@ -1,0 +1,2 @@
+stage connection failure: /query ECONNREFUSED
+pipeline failure: fetch failed ECONNREFUSED

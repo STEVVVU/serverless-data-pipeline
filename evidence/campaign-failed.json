@@ -1,0 +1,5234 @@
+{
+  "tool": "autocannon 8.0.0",
+  "workload": "50 requests per run, concurrency 1 and 8, identical 1000-distinct-row CSV; preloaded static idempotent writes; five interleaved pairs per concurrency",
+  "dataset_sha256": "0e6019413b5d719964a8cc725a33aabe49362b0e341701da298931f18d3626ce",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "node": "v25.8.1",
+  "python": "Python 3.11.9",
+  "source_sha256": "e6a807a43b63eff415df87d28cae36894c5ed7632154a5b5ee29ff72d5851eac",
+  "receipts": [
+    {
+      "mode": "split",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 28.3,
+        "mean": 28.3,
+        "stddev": 2.52,
+        "min": 25,
+        "max": 34,
+        "p0_001": 25,
+        "p0_01": 25,
+        "p0_1": 25,
+        "p1": 25,
+        "p2_5": 25,
+        "p10": 26,
+        "p25": 27,
+        "p50": 27,
+        "p75": 29,
+        "p90": 33,
+        "p97_5": 34,
+        "p99": 34,
+        "p99_9": 34,
+        "p99_99": 34,
+        "p99_999": 34,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "fused",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 20.88,
+        "mean": 20.88,
+        "stddev": 1.36,
+        "min": 20,
+        "max": 27,
+        "p0_001": 20,
+        "p0_01": 20,
+        "p0_1": 20,
+        "p1": 20,
+        "p2_5": 20,
+        "p10": 20,
+        "p25": 20,
+        "p50": 20,
+        "p75": 21,
+        "p90": 22,
+        "p97_5": 25,
+        "p99": 27,
+        "p99_9": 27,
+        "p99_99": 27,
+        "p99_999": 27,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "fused",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 23.2,
+        "mean": 23.2,
+        "stddev": 4.24,
+        "min": 20,
+        "max": 39,
+        "p0_001": 20,
+        "p0_01": 20,
+        "p0_1": 20,
+        "p1": 20,
+        "p2_5": 20,
+        "p10": 20,
+        "p25": 21,
+        "p50": 21,
+        "p75": 23,
+        "p90": 30,
+        "p97_5": 36,
+        "p99": 39,
+        "p99_9": 39,
+        "p99_99": 39,
+        "p99_999": 39,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "split",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 27.92,
+        "mean": 27.92,
+        "stddev": 3.06,
+        "min": 25,
+        "max": 47,
+        "p0_001": 25,
+        "p0_01": 25,
+        "p0_1": 25,
+        "p1": 25,
+        "p2_5": 26,
+        "p10": 26,
+        "p25": 26,
+        "p50": 27,
+        "p75": 28,
+        "p90": 30,
+        "p97_5": 31,
+        "p99": 47,
+        "p99_9": 47,
+        "p99_99": 47,
+        "p99_999": 47,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "split",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 29.88,
+        "mean": 29.88,
+        "stddev": 2.72,
+        "min": 26,
+        "max": 41,
+        "p0_001": 26,
+        "p0_01": 26,
+        "p0_1": 26,
+        "p1": 26,
+        "p2_5": 27,
+        "p10": 27,
+        "p25": 28,
+        "p50": 29,
+        "p75": 31,
+        "p90": 32,
+        "p97_5": 39,
+        "p99": 41,
+        "p99_9": 41,
+        "p99_99": 41,
+        "p99_999": 41,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "fused",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 21.2,
+        "mean": 21.2,
+        "stddev": 2.83,
+        "min": 20,
+        "max": 40,
+        "p0_001": 20,
+        "p0_01": 20,
+        "p0_1": 20,
+        "p1": 20,
+        "p2_5": 20,
+        "p10": 20,
+        "p25": 20,
+        "p50": 21,
+        "p75": 21,
+        "p90": 22,
+        "p97_5": 23,
+        "p99": 40,
+        "p99_9": 40,
+        "p99_99": 40,
+        "p99_999": 40,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "fused",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 21.28,
+        "mean": 21.28,
+        "stddev": 0.94,
+        "min": 20,
+        "max": 24,
+        "p0_001": 20,
+        "p0_01": 20,
+        "p0_1": 20,
+        "p1": 20,
+        "p2_5": 20,
+        "p10": 20,
+        "p25": 21,
+        "p50": 21,
+        "p75": 22,
+        "p90": 22,
+        "p97_5": 24,
+        "p99": 24,
+        "p99_9": 24,
+        "p99_99": 24,
+        "p99_999": 24,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "split",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 28.9,
+        "mean": 28.9,
+        "stddev": 4,
+        "min": 25,
+        "max": 47,
+        "p0_001": 25,
+        "p0_01": 25,
+        "p0_1": 25,
+        "p1": 25,
+        "p2_5": 25,
+        "p10": 26,
+        "p25": 27,
+        "p50": 27,
+        "p75": 30,
+        "p90": 33,
+        "p97_5": 38,
+        "p99": 47,
+        "p99_9": 47,
+        "p99_99": 47,
+        "p99_999": 47,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "split",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 28.28,
+        "mean": 28.28,
+        "stddev": 1.89,
+        "min": 26,
+        "max": 35,
+        "p0_001": 26,
+        "p0_01": 26,
+        "p0_1": 26,
+        "p1": 26,
+        "p2_5": 26,
+        "p10": 26,
+        "p25": 27,
+        "p50": 28,
+        "p75": 30,
+        "p90": 30,
+        "p97_5": 33,
+        "p99": 35,
+        "p99_9": 35,
+        "p99_99": 35,
+        "p99_999": 35,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "fused",
+      "connections": 1,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 22.72,
+        "mean": 22.72,
+        "stddev": 2.07,
+        "min": 21,
+        "max": 29,
+        "p0_001": 21,
+        "p0_01": 21,
+        "p0_1": 21,
+        "p1": 21,
+        "p2_5": 21,
+        "p10": 21,
+        "p25": 21,
+        "p50": 22,
+        "p75": 23,
+        "p90": 26,
+        "p97_5": 29,
+        "p99": 29,
+        "p99_9": 29,
+        "p99_99": 29,
+        "p99_999": 29,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 243.7,
+        "mean": 243.7,
+        "stddev": 72.51,
+        "min": 31,
+        "max": 365,
+        "p0_001": 31,
+        "p0_01": 31,
+        "p0_1": 31,
+        "p1": 31,
+        "p2_5": 37,
+        "p10": 117,
+        "p25": 217,
+        "p50": 268,
+        "p75": 286,
+        "p90": 304,
+        "p97_5": 349,
+        "p99": 365,
+        "p99_9": 365,
+        "p99_99": 365,
+        "p99_999": 365,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.02
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 328.52,
+        "mean": 328.52,
+        "stddev": 83.06,
+        "min": 23,
+        "max": 441,
+        "p0_001": 23,
+        "p0_01": 23,
+        "p0_1": 23,
+        "p1": 23,
+        "p2_5": 62,
+        "p10": 231,
+        "p25": 308,
+        "p50": 340,
+        "p75": 390,
+        "p90": 402,
+        "p97_5": 418,
+        "p99": 441,
+        "p99_9": 441,
+        "p99_99": 441,
+        "p99_999": 441,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 3.01
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 298.26,
+        "mean": 298.26,
+        "stddev": 54.08,
+        "min": 58,
+        "max": 364,
+        "p0_001": 58,
+        "p0_01": 58,
+        "p0_1": 58,
+        "p1": 58,
+        "p2_5": 120,
+        "p10": 251,
+        "p25": 280,
+        "p50": 305,
+        "p75": 332,
+        "p90": 348,
+        "p97_5": 363,
+        "p99": 364,
+        "p99_9": 364,
+        "p99_99": 364,
+        "p99_999": 364,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.02
+    },
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": false,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 502,
+          "match": false
+        },
+        {
+          "status": 502,
+          "match": false
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 2,
+      "latency_ms": {
+        "average": 116.28,
+        "mean": 116.28,
+        "stddev": 49.22,
+        "min": 1,
+        "max": 245,
+        "p0_001": 0,
+        "p0_01": 0,
+        "p0_1": 0,
+        "p1": 0,
+        "p2_5": 1,
+        "p10": 63,
+        "p25": 90,
+        "p50": 107,
+        "p75": 137,
+        "p90": 173,
+        "p97_5": 235,
+        "p99": 245,
+        "p99_9": 245,
+        "p99_99": 245,
+        "p99_999": 245,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 1
+    },
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 301.62,
+        "mean": 301.62,
+        "stddev": 86.78,
+        "min": 42,
+        "max": 401,
+        "p0_001": 42,
+        "p0_01": 42,
+        "p0_1": 42,
+        "p1": 42,
+        "p2_5": 75,
+        "p10": 106,
+        "p25": 271,
+        "p50": 329,
+        "p75": 362,
+        "p90": 370,
+        "p97_5": 389,
+        "p99": 401,
+        "p99_9": 401,
+        "p99_99": 401,
+        "p99_999": 401,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 376.04,
+        "mean": 376.04,
+        "stddev": 80.91,
+        "min": 29,
+        "max": 516,
+        "p0_001": 29,
+        "p0_01": 29,
+        "p0_1": 29,
+        "p1": 29,
+        "p2_5": 110,
+        "p10": 317,
+        "p25": 347,
+        "p50": 372,
+        "p75": 429,
+        "p90": 454,
+        "p97_5": 494,
+        "p99": 516,
+        "p99_9": 516,
+        "p99_99": 516,
+        "p99_999": 516,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 3.01
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 166.86,
+        "mean": 166.86,
+        "stddev": 201.01,
+        "min": 22,
+        "max": 922,
+        "p0_001": 22,
+        "p0_01": 22,
+        "p0_1": 22,
+        "p1": 22,
+        "p2_5": 31,
+        "p10": 47,
+        "p25": 71,
+        "p50": 93,
+        "p75": 160,
+        "p90": 402,
+        "p97_5": 748,
+        "p99": 922,
+        "p99_9": 922,
+        "p99_99": 922,
+        "p99_999": 922,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2.01
+    },
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 242.92,
+        "mean": 242.92,
+        "stddev": 56.96,
+        "min": 38,
+        "max": 301,
+        "p0_001": 38,
+        "p0_01": 38,
+        "p0_1": 38,
+        "p1": 38,
+        "p2_5": 127,
+        "p10": 144,
+        "p25": 246,
+        "p50": 264,
+        "p75": 278,
+        "p90": 284,
+        "p97_5": 293,
+        "p99": 301,
+        "p99_9": 301,
+        "p99_99": 301,
+        "p99_999": 301,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": false,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 502,
+          "match": false
+        },
+        {
+          "status": 502,
+          "match": false
+        },
+        {
+          "status": 502,
+          "match": false
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 3,
+      "latency_ms": {
+        "average": 181.68,
+        "mean": 181.68,
+        "stddev": 99.62,
+        "min": 1,
+        "max": 354,
+        "p0_001": 0,
+        "p0_01": 0,
+        "p0_1": 0,
+        "p1": 0,
+        "p2_5": 1,
+        "p10": 41,
+        "p25": 85,
+        "p50": 189,
+        "p75": 270,
+        "p90": 298,
+        "p97_5": 332,
+        "p99": 354,
+        "p99_9": 354,
+        "p99_99": 354,
+        "p99_999": 354,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 162.34,
+        "mean": 162.34,
+        "stddev": 201.32,
+        "min": 36,
+        "max": 1007,
+        "p0_001": 36,
+        "p0_01": 36,
+        "p0_1": 36,
+        "p1": 36,
+        "p2_5": 37,
+        "p10": 48,
+        "p25": 54,
+        "p50": 70,
+        "p75": 194,
+        "p90": 401,
+        "p97_5": 752,
+        "p99": 1007,
+        "p99_9": 1007,
+        "p99_99": 1007,
+        "p99_999": 1007,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 2
+    }
+  ]
+}

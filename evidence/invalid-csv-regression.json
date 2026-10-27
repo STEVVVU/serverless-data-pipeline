@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "csv": 17,
+      "status": 400,
+      "body": {
+        "error": "invalid input"
+      }
+    },
+    {
+      "csv": null,
+      "status": 400,
+      "body": {
+        "error": "invalid input"
+      }
+    },
+    {
+      "csv": [],
+      "status": 400,
+      "body": {
+        "error": "invalid input"
+      }
+    },
+    {
+      "csv": {},
+      "status": 400,
+      "body": {
+        "error": "invalid input"
+      }
+    }
+  ]
+}

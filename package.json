@@ -1,0 +1,8 @@
+{
+  "name": "serverless-data-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "dependencies": { "google-auth-library": "10.5.0" },
+  "devDependencies": { "autocannon": "8.0.0" }
+}

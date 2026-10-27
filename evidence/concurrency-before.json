@@ -1,0 +1,538 @@
+{
+  "tool": "autocannon 8.0.0",
+  "workload": "50 requests per run, concurrency 8, one pair",
+  "dataset_sha256": "0e6019413b5d719964a8cc725a33aabe49362b0e341701da298931f18d3626ce",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+  "node": "v25.8.1",
+  "python": "Python 3.11.9",
+  "source_sha256": "a700b01947777cc6fc2b4bd093e7d16a03d44030bbd12f9fd8bf40058585085b",
+  "receipts": [
+    {
+      "mode": "split",
+      "connections": 8,
+      "pass": false,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 502,
+          "match": false,
+          "body": "{\"error\":\"pipeline failed\"}"
+        },
+        {
+          "status": 502,
+          "match": false,
+          "body": "{\"error\":\"pipeline failed\"}"
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 2,
+      "latency_ms": {
+        "average": 109.88,
+        "mean": 109.88,
+        "stddev": 52.62,
+        "min": 1,
+        "max": 264,
+        "p0_001": 0,
+        "p0_01": 0,
+        "p0_1": 0,
+        "p1": 0,
+        "p2_5": 1,
+        "p10": 43,
+        "p25": 71,
+        "p50": 109,
+        "p75": 133,
+        "p90": 152,
+        "p97_5": 227,
+        "p99": 264,
+        "p99_9": 264,
+        "p99_99": 264,
+        "p99_999": 264,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 1.01
+    },
+    {
+      "mode": "fused",
+      "connections": 8,
+      "pass": true,
+      "oracle": {
+        "count": 1000,
+        "units": 2000,
+        "min_units": 2,
+        "max_units": 2,
+        "average_units": "2",
+        "revenue": "20000.00",
+        "profit": "8000.00",
+        "average_days": "2",
+        "average_margin": "0.4"
+      },
+      "grouped": [
+        {
+          "priority": "High",
+          "count": 1000,
+          "units": 2000,
+          "min_units": 2,
+          "max_units": 2,
+          "average_units": "2",
+          "revenue": "20000.00",
+          "profit": "8000.00",
+          "average_days": "2",
+          "average_margin": "0.4"
+        }
+      ],
+      "committed": 1002,
+      "outcomes": [
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        },
+        {
+          "status": 200,
+          "match": true
+        }
+      ],
+      "status": 200,
+      "requests": 50,
+      "errors": 0,
+      "non2xx": 0,
+      "latency_ms": {
+        "average": 329.74,
+        "mean": 329.74,
+        "stddev": 59.61,
+        "min": 23,
+        "max": 385,
+        "p0_001": 23,
+        "p0_01": 23,
+        "p0_1": 23,
+        "p1": 23,
+        "p2_5": 185,
+        "p10": 273,
+        "p25": 321,
+        "p50": 344,
+        "p75": 365,
+        "p90": 374,
+        "p97_5": 385,
+        "p99": 385,
+        "p99_9": 385,
+        "p99_99": 385,
+        "p99_999": 385,
+        "totalCount": 50
+      },
+      "elapsed_seconds": 3.01
+    }
+  ]
+}

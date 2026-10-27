@@ -1,0 +1,68 @@
+{
+  "action": "split, fused, grouped, unavailable-stage and restart",
+  "split": {
+    "count": 2,
+    "units": 3,
+    "min_units": 1,
+    "max_units": 2,
+    "average_units": "1.5",
+    "revenue": "25.00",
+    "profit": "9.00",
+    "average_days": "2.5",
+    "average_margin": "0.3"
+  },
+  "fused": {
+    "count": 2,
+    "units": 3,
+    "min_units": 1,
+    "max_units": 2,
+    "average_units": "1.5",
+    "revenue": "25.00",
+    "profit": "9.00",
+    "average_days": "2.5",
+    "average_margin": "0.3"
+  },
+  "grouped": [
+    {
+      "priority": "High",
+      "count": 1,
+      "units": 2,
+      "min_units": 2,
+      "max_units": 2,
+      "average_units": "2",
+      "revenue": "20.00",
+      "profit": "8.00",
+      "average_days": "2",
+      "average_margin": "0.4"
+    },
+    {
+      "priority": "Low",
+      "count": 1,
+      "units": 1,
+      "min_units": 1,
+      "max_units": 1,
+      "average_units": "1",
+      "revenue": "5.00",
+      "profit": "1.00",
+      "average_days": "3",
+      "average_margin": "0.2"
+    }
+  ],
+  "database_rows_before_campaign": 2,
+  "database_rows_after_campaign": 1002,
+  "unauthorized_status": 401,
+  "invalid_stage_status": 400,
+  "unavailable_stage_status": 502,
+  "unavailable_backend_status": 500,
+  "restart_recovered": {
+    "count": 2,
+    "units": 3,
+    "min_units": 1,
+    "max_units": 2,
+    "average_units": "1.5",
+    "revenue": "25.00",
+    "profit": "9.00",
+    "average_days": "2.5",
+    "average_margin": "0.3"
+  }
+}
